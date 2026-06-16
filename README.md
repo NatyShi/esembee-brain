@@ -13,16 +13,17 @@ Building a startup from Latin America means fighting three battles at once:
 
 **esembee gBrain** is an orchestrator that routes tasks to specialist AI agents. Not a chatbot. Not a prompt library. A team.
 
-```
-         YOU (Founder)
-              ↓
-      esembee gBrain Orchestrator
-      ┌────────┼────────┐
-      ↓        ↓        ↓
-  Content    PM       Ops
-  Creator   Expert   Expert
-      ↓        ↓        ↓
-  NatyShi/esembee/IPY   esembee/IPY   NatyShi/esembee
+```mermaid
+graph TD
+    A["YOU<br/>Founder"] --> B["esembee gBrain<br/>Orchestrator"]
+    B --> C["Content Creator"]
+    B --> D["PM Expert"]
+    B --> E["Ops Expert"]
+    C --> F["NatyShi"]
+    C --> G["esembee"]
+    C --> H["IPY Now"]
+    D --> I["Strategy & Docs"]
+    E --> J["Kanban & Briefings"]
 ```
 
 Each agent has one job:
