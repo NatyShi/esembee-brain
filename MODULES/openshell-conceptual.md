@@ -49,7 +49,6 @@ Hermes Agent
 
 ## References
 
-- [NVIDIA NemoClaw](https://nemoclawai.io/) - Security stack overview
 - [OpenShell Docs](https://docs.nvidia.com/openshell/) - Official documentation
 - [Nous Research + NVIDIA](https://x.com/NousResearch/status/2061323987804713083) - Partnership announcement
 
