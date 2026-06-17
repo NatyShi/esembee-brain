@@ -100,7 +100,7 @@ sequenceDiagram
 - Agent executes: creates plan, sends to 3 email addresses
 
 **Supplier payment approval:**
-- Agent: "Payment approval needed: AWS — $890 USD — Due in 3 days"
+- Agent: "Payment approval needed: AWS ($890 USD) Due in 3 days"
 - Founder: "Approved"
 - Agent: "Payment scheduled for June 20"
 
@@ -150,13 +150,13 @@ sequenceDiagram
 
 All metrics in the demo use real industry benchmarks:
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| B2B SaaS monthly churn | 3.5% | SaaSHero, 2025 |
-| SMB SaaS CAC | $200-$700 | Mowsix/LTV-CAC Book, 2026 |
-| Healthy LTV/CAC ratio | 3-5x | HBS/CharliA, 2025-2026 |
-| CAC increase (8 years) | +222% | Shno.co, 2026 |
-| LATAM SMBs digital payments | 85% | CEPAL, 2025 |
+| Metric | Value | Source | Link |
+|--------|-------|--------|------|
+| B2B SaaS monthly churn | 3.5% | Recurly Churn Report 2025 (via Shno.co) | https://www.shno.co/marketing-statistics/saas-churn-benchmarks-statistics |
+| SMB SaaS CAC | $200-$700 | Mowsix Unit Economics Benchmarks 2026 | https://mowsix.com/insights/unit-economics-benchmarks-2026/ |
+| LTV/CAC ratio (healthy) | 3-5x | Harvard Business School — LTV/CAC Ratio Guide | https://online.hbs.edu/blog/post/ltv-cac |
+| CAC increase (8 years) | +222% | Shno.co Customer Acquisition Statistics 2026 | https://www.shno.co/marketing-statistics/customer-acquisition-statistics |
+| LATAM SMBs digital payments | 85% | Mastercard SMB Survey 2025 (LATAM) | https://www.mastercard.com/news/latin-america/es/sala-de-prensa/comunicados-de-prensa/pr-es/2025/junio/encuesta-de-mastercard-los-pagos-digitales-son-esenciales-para-el-crecimiento-y-la-supervivencia-de-las-pymes |
 
 ---
 
