@@ -1,11 +1,11 @@
-# Financial Agent — CFO + Growth Advisor
+# Financial Agent - CFO + Growth Advisor
 
 ## Overview
 
-The Financial Agent is a hybrid CFO + Growth Advisor that operates within the gBrain multi-agent system. It combines operational financial tasks (transaction classification, payment processing) with strategic analysis (unit economics, churn detection, growth recommendations).
+The Financial Agent is a hybrid CFO + Growth Advisor that operates within the esembeegBrain multi-agent system. It combines operational financial tasks (transaction classification, payment processing) with strategic analysis (unit economics, churn detection, growth recommendations).
 
 **Status:** Documented spec (not yet implemented)
-**Role:** Specialist agent routed by gBrain Orchestrator
+**Role:** Specialist agent routed by esembeegBrain Orchestrator
 **Trigger words:** "payment", "revenue", "churn", "CAC", "LTV", "financial", "report", "budget", "payroll"
 
 ## Capabilities
@@ -46,7 +46,7 @@ Calculates and tracks:
 ### 4. Strategic Recommendations
 
 **For churn risk:**
-- Personalized re-engagement campaigns
+- Personalized re-engagement campaigns (working with Content Expert agent support)
 - Feature adoption nudges
 - Pricing adjustments
 
@@ -136,11 +136,11 @@ monthly_metrics:
 
 ## Future Enhancements
 
-- **Payroll automation** — Calculate and process payroll based on team data
-- **Tax compliance** — LATAM-specific tax calculations (IVA, IIBB, retenciones)
-- **Multi-entity support** — Manage finances for multiple businesses
-- **Investor reporting** — Auto-generate board-ready financial reports
-- **Cash flow forecasting** — Predict future cash positions based on trends
+- **Payroll automation** - Calculate and process payroll based on team data
+- **Tax compliance** - LATAM-specific tax calculations (IVA, IIBB, retentions)
+- **Multi-entity support** - Manage finances for multiple businesses
+- **Investor reporting** - Auto-generate board-ready financial reports
+- **Cash flow forecasting** - Predict future cash positions based on trends
 
 ---
 
