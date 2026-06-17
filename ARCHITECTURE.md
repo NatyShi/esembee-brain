@@ -1,12 +1,12 @@
-# Architecture — GBrain
+# Architecture - esembeeGBrain
 
 ## System Overview
 
-GBrain is a multi-agent AI system built on Hermes Agent. It orchestrates specialist agents that handle different business functions, all running locally on a single machine.
+esembeeGBrain is a multi-agent AI system built on Hermes Agent. It orchestrates specialist agents that handle different business functions, all running locally on a single machine.
 
 ## Core Components
 
-### 1. Orchestrator (gBrain SOUL.md)
+### 1. Orchestrator (esembeegBrain SOUL.md)
 
 The central brain. Routes incoming tasks to the appropriate specialist agent based on task type, context, and priorities.
 
@@ -34,7 +34,6 @@ Each agent is a focused worker with specific expertise:
 - Generates content for 3 brands (NatyShi, esembee, IPY Now)
 - Produces 11 pieces per trigger (LinkedIn, X, blog, video scripts)
 - Includes visual asset generation (headers, infographics)
-- Mandatory X Post Audit for X content
 
 #### PM Expert
 - Strategic analysis and trade-offs
@@ -66,7 +65,6 @@ Every output passes through quality checks before reaching the user:
 - CTA clarity
 - Hook effectiveness
 - Visual assets included
-- X Post Audit score ≥ 60
 
 **PM Expert Eval Gate:**
 - Data-backed analysis
@@ -80,7 +78,7 @@ Every output passes through quality checks before reaching the user:
 hermes-brain/
 ├── Content/Generated/     ← Content pieces with tracking frontmatter
 ├── Knowledge-Base/        ← PRDs, setups, infrastructure docs
-│   ├── Proyectos/         ← Project-specific docs
+│   ├── Projects/          ← Project-specific docs
 │   └── Idea-Pantry/       ← Idea bank for future work
 ├── Sessions/              ← Daily to-dos and session summaries
 └── gBrain-OS/             ← System config and kanban
