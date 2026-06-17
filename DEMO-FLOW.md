@@ -1,4 +1,4 @@
-# Demo Flow — End-to-End: "From Payment to Strategic Decision"
+# Demo Flow - End-to-End: "From Payment to Strategic Decision"
 
 ## Overview
 
