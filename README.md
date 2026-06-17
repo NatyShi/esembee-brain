@@ -4,7 +4,7 @@
 
 ## The Problem
 
-Small businesses in Latin America, and emerging countires in general, face three walls:
+Small businesses in Latin America, and emerging countries in general, face three walls:
 
 1. **Cost** - They can't afford specialized teams for content, finance, and operations. AI tool subscriptions pile up.
 2. **Dependency** - Everything lives in third-party clouds. If the service goes down, the business stops. If prices go up, the business adjusts or dies.
