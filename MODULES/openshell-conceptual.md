@@ -40,7 +40,7 @@ Hermes Agent
           └── Compliance frameworks
 ```
 
-## Use Cases for gBrain
+## Use Cases for esembeegBrain
 
 1. **Financial operations** - Sandbox payment processing, audit every transaction
 2. **Data analysis** - Isolate data processing from production systems
